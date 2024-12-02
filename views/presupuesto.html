@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivet Botánica</title>
+    <!--FAVICON-->
+    <link rel="icon" type="image/x-icon" href="/bota.ico">
+    <!--Link al CSS-->
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    <div class="totalweb">
+      <header>
+        <div class="information">
+            <p>Envíos en <span>24/48h</span></p>
+            <p>Hasta <span>14 días</span> para devolución</p>
+            <p>LLAMANOS <span>955819634</span></p>
+      </div>
+      
+      
+      <div class="titlenav">
+        
+        <h1>Vivet Botánica</h1>
+        <!--Creamos una barra de navegación simple-->
+           <nav class="menu">
+            
+               <ul class="list">
+                  
+                   <li><a class="listelement" href="/index.html">Inicio</a></li>
+                   <li><a class="listelement " href="/views/productos.html">Galería</a></li>
+                   <li><a class="listelement active" href="#">Presupuesto</a></li>
+                   <li><a class="listelement" href="/views/contacto.html">Contáctanos</a></li>
+
+               </ul>
+
+            </nav>
+      
+        </div>
+    
+      </header>
+    
+    <main>
+          
+          <div id="container">  <!-- Creamos un formulario con listas -->
+              
+             <form id="myform" method="post" name="myform" action="#" target="_self">
+
+               <ul class="flex-outer">
+                   
+                <li>
+                    <label for="first-name">Nombre</label>
+                    <input type="text" id="first-name" name="first-name" 
+                        placeholder="Escriba su nombre" pattern="[A-Z a-z]{3,15}"
+                        title="Escriba sólo letras a-z" required>
+                </li>
+                <li>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" 
+                        placeholder="Escriba su correo electrónico" pattern="[a-zA-Z0-9_-.]+@[a-z0-9._-]+\.[a-z]{2,4}"
+                        title="Escriba su correo electrónico" required>
+                </li>
+                <li>
+                    <label for="telephone">Teléfono</label>
+                    <input type="tel" id="telephone" name="telephone" 
+                        placeholder="Escriba su teléfono" pattern="[0-9]{9}" maxlength="9"
+                        title="Escriba los 9 números de su teléfono movil" required>
+                </li>
+                <li>
+                    <label for="message">Solicite más información</label>
+                    <textarea rows="6" id="message" placeholder="Escriba aquí su mensaje"></textarea>
+                </li>
+                <li>
+                <ul id="flex-inner">   <!-- Aqui esta el check y los botones -->
+                     <li><p>Política de privacidad</p></li>
+                     <li><label for="check">Acepto</label></li>
+                     <li><input type="checkbox" id="check" required></li>
+              
+                  </ul>
+                </li>
+                  <li class="liButtons">
+                    <button type="reset">Borrar</button>
+                    <button type="submit"> Enviar </button>
+                 </li>
+               </ul>
+             
+             </form>
+             
+          </div>
+          
+          <div id="formend">
+
+            <h3>¡Pídanos presupuesto sin compromiso!</h3> 
+            
+          </div>
+           
+    </main>
+    
+    <footer>
+      <div class="footercontainer">
+        
+          <div class="container2">
+        
+             <a href="#"><p>Ir arriba</p></a>
+       
+               <p>/</p>
+     
+             <p>&copy;Vivet Botánica. Todos los derechos reservados</p>
+      
+               <p>/</p>
+      
+             <a href="/views/avisolegal.html"><p>Aviso legal </p></a>
+      
+               <p>/</p>
+      
+             <a href="https://www.aepd.es/politica-de-privacidad-y-aviso-legal" target="_blank"><p>Política de privacidad</p></a>
+
+              <a href="https://www.instagram.com/?hl=es" target="_blank"><img class="social" src="/img/insta.png" alt="Instagram"></a>
+              <a href="https://twitter.com/?lang=es" target="_blank"><img class="social" src="/img/x.png" alt="X"></a>
+              <a href="https://es-es.facebook.com/" target="_blank"><img class="social" src="/img/facebook.png" alt="Facebook"></a>
+        
+          </div>
+       
+             <p>Av. de Andalucia, 250, 41702 Dos Hermanas, Sevilla</p>
+      
+      </div>
+ 
+ </footer>
+    </div>
+</body>
+</html>
